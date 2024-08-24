@@ -1,0 +1,1315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedéx</title>
+    <link rel="shortcut icon" href="img/Poké_Ball_icon.svg.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+        body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2F3337;
+}
+
+.menu {
+    width: 100%;
+    background-color: #363636;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.menu h1 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.menu p {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.menu p a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 5px;
+    display: inline-block;
+    background-color: #505050;
+}
+
+.menu p a:hover {
+    background-color: #707070;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.galar {
+    background-color: #40474F;
+    width: 1200px;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    height: 100%;
+}
+
+.galar h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.fileira {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.pokemon {
+    display: flex;
+    align-items: center;
+}
+
+.pokemon-img {
+    background-color: #f2f2f211;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.pokemon-info {
+    text-align: left;
+}
+
+.pokemon-types {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.type {
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    width: 60px;
+    text-align: center;
+}
+
+.planta {
+    background-color: #9BCC50;
+}
+
+.veneno {
+    background-color: #B97FC9;
+}
+
+.fogo {
+    background-color: #F08030;
+}
+
+.voador {
+    background-color: #A98FF3;
+}
+
+.agua {
+    background-color: #4592C4;
+}
+
+.inseto {
+    background-color: #729F3F;
+}
+
+.normal {
+    background-color: #A4ACAF;
+}
+
+.eletrico {
+    background-color: #EED535;
+}
+
+.terra {
+    background-color: #AB9842;
+}
+
+.fada {
+    background-color: #FDB9E9;
+}
+
+.luta {
+    background-color: #D56723;
+}
+
+.gelo {
+    background-color: #51C4E7;
+}
+
+.psiquico {
+    background-color: #F366B9;
+}
+
+.pedra {
+    background-color: #A38C21;
+}
+
+.metal {
+    background-color: #9EB7B8;
+}
+
+.rocha {
+    background-color: #A38C21;
+}
+
+.fantasma {
+    background-color: #7B62A3;
+}
+
+.dragao {
+    background-color: #53A4CF;
+}
+
+.noturno {
+    background-color: #707070;
+}
+
+.geracao2 {
+    background-color: #2222FF;
+}
+
+.ad {
+    text-align: center;
+    background-color: #363636;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+</style>
+</head>
+<body>
+    <div class="menu">
+        <h1>
+            <img src="img/Poké_Ball_icon.svg.png" alt="Pokébola" width="40" height="40">
+            Pokédex
+        </h1>
+        <p>
+            <a href="index.html">1ª Geração (Kanto)</a>
+            <a href="johto.html">2ª Geração (Johto)</a>
+            <a href="hoenn.html">3ª Geração (Hoenn)</a>
+            <a href="sinnoh.html">4ª Geração (Sinnoh)</a>
+            <a href="unova.html">5ª Geração (Unova)</a>
+            <a href="kalos.html">6ª Geração (Kalos)</a>
+            <a href="alola.html">7ª Geração (Alola)</a>
+            <a href="galar.html">8ª Geração (Galar)</a>
+            <a href="paldea.html">9ª Geração (Paldea)</a>
+        </p>
+    </div>
+
+    <div class="galar">
+        <h1>8ª Geração (Galar)</h1>
+
+        <div class="fileira">
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/810.png" alt="Grookey" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 810<br>Grookey</p>
+                    <div class="pokemon-types">
+                        <div class="type planta">Planta</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/811.png" alt="Thwackey" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 811<br>Thwackey</p>
+                    <div class="pokemon-types">
+                        <div class="type planta">Planta</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon" style="padding-right: 80px;">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/812.png" alt="Rillaboom" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 812<br>Rillaboom</p>
+                    <div class="pokemon-types">
+                        <div class="type planta">Planta</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="fileira">
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/813.png" alt="Scorbunny" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 813<br>Scorbunny</p>
+                    <div class="pokemon-types">
+                        <div class="type fogo">Fogo</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon" style="padding-right: 5px;">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/814.png" alt="Raboot" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 814<br>Raboot</p>
+                    <div class="pokemon-types">
+                        <div class="type fogo">Fogo</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon" style="padding-right: 80px;">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/815.png" alt="Cinderace" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 815<br>Cinderace</p>
+                    <div class="pokemon-types">
+                        <div class="type fogo">Fogo</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="fileira">
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/816.png" alt="Sobble" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 816<br>Sobble</p>
+                    <div class="pokemon-types">
+                        <div class="type agua">Água</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/817.png" alt="Drizzile" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 817<br>Drizzile</p>
+                    <div class="pokemon-types">
+                        <div class="type agua">Água</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon" style="padding-right: 80px;">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/818.png" alt="Inteleon" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 818<br>Inteleon</p>
+                    <div class="pokemon-types">
+                        <div class="type agua">Água</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="fileira">
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/819.png" alt="Skwovet" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 819<br>Skwovet</p>
+                    <div class="pokemon-types">
+                        <div class="type normal">Normal</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/820.png" alt="Greedent" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 820<br>Greedent</p>
+                    <div class="pokemon-types">
+                        <div class="type normal">Normal</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon" style="padding-right: 80px;">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/821.png" alt="Rookidee" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 821<br>Rookidee</p>
+                    <div class="pokemon-types">
+                        <div class="type voador">Voador</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="fileira">
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/822.png" alt="Corvisquire" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 822<br>Corvisquire</p>
+                    <div class="pokemon-types">
+                        <div class="type voador">Voador</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon" style="padding-left: 70px;">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/823.png" alt="Corviknight" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 823<br>Corviknight</p>
+                    <div class="pokemon-types">
+                        <div class="type voador">Voador</div>
+                        <div class="type metal">Metálico</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon" style="padding-right: 80px;">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/824.png" alt="Blipbug" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 824<br>Blipbug</p>
+                    <div class="pokemon-types">
+                        <div class="type inseto">Inseto</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="fileira">
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/825.png" alt="Dottler" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 825<br>Dottler</p>
+                    <div class="pokemon-types">
+                        <div class="type inseto">Inseto</div>
+                        <div class="type psiquico">Psíquico</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/826.png" alt="Orbeetle" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 826<br>Orbeetle</p>
+                    <div class="pokemon-types">
+                        <div class="type inseto">Inseto</div>
+                        <div class="type psiquico">Psíquico</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon" style="padding-right: 80px;">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/827.png" alt="Nickit" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 827<br>Nickit</p>
+                    <div class="pokemon-types">
+                        <div class="type noturno">Noturno</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="fileira">
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/828.png" alt="Thievul" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 828<br>Thievul</p>
+                    <div class="pokemon-types">
+                        <div class="type noturno">Noturno</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/829.png" alt="Gossifleur" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 829<br>Gossifleur</p>
+                    <div class="pokemon-types">
+                        <div class="type planta">Planta</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon" style="padding-right: 80px;">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/830.png" alt="Eldegoss" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 830<br>Eldegoss</p>
+                    <div class="pokemon-types">
+                        <div class="type planta">Planta</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="fileira">
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/831.png" alt="Wooloo" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 831<br>Wooloo</p>
+                    <div class="pokemon-types">
+                        <div class="type normal">Normal</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/832.png" alt="Dubwool" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 832<br>Dubwool</p>
+                    <div class="pokemon-types">
+                        <div class="type normal">Normal</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon" style="padding-right: 80px;">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/833.png" alt="Chewtle" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 833<br>Chewtle</p>
+                    <div class="pokemon-types">
+                        <div class="type agua">Água</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="fileira">
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/834.png" alt="Drednaw" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 834<br>Drednaw</p>
+                    <div class="pokemon-types">
+                        <div class="type agua">Água</div>
+                        <div class="type pedra">Pedra</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon" style="padding-right: 80px;">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/835.png" alt="Yamper" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 835<br>Yamper</p>
+                    <div class="pokemon-types">
+                        <div class="type eletrico">Elétrico</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon" style="padding-right: 80px;">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/836.png" alt="Boltund" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 836<br>Boltund</p>
+                    <div class="pokemon-types">
+                        <div class="type eletrico">Elétrico</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="fileira">
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/837.png" alt="Rolycoly" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 837<br>Rolycoly</p>
+                    <div class="pokemon-types">
+                        <div class="type pedra">Pedra</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon" style="padding-left: 80px;">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/838.png" alt="Carkol" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 838<br>Carkol</p>
+                    <div class="pokemon-types">
+                        <div class="type pedra">Pedra</div>
+                        <div class="type fogo">Fogo</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon" >
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/839.png" alt="Coalossal" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 839<br>Coalossal</p>
+                    <div class="pokemon-types">
+                        <div class="type pedra">Pedra</div>
+                        <div class="type fogo">Fogo</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fileira">
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/840.png" alt="Applin" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 840<br>Applin</p>
+                    <div class="pokemon-types">
+                        <div class="type planta">Planta</div>
+                        <div class="type dragao">Dragão</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/841.png" alt="Flapple" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 841<br>Flapple</p>
+                    <div class="pokemon-types">
+                        <div class="type planta">Planta</div>
+                        <div class="type dragao">Dragão</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/842.png" alt="Appletun" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 842<br>Appletun</p>
+                    <div class="pokemon-types">
+                        <div class="type planta">Planta</div>
+                        <div class="type dragao">Dragão</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="fileira">
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/843.png" alt="Silicobra" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 843<br>Silicobra</p>
+                    <div class="pokemon-types">
+                        <div class="type terra">Terra</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon" style="padding-left: 15px;">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/844.png" alt="Sandaconda" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 844<br>Sandaconda</p>
+                    <div class="pokemon-types">
+                        <div class="type terra">Terra</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon" style="padding-right: 80px;">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/845.png" alt="Cufant" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 845<br>Cufant</p>
+                    <div class="pokemon-types">
+                        <div class="type metal">Metálico</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="fileira">
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/846.png" alt="Copperajah" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 846<br>Copperajah</p>
+                    <div class="pokemon-types">
+                        <div class="type metal">Metálico</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon" style="padding-left: 60px;">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/847.png" alt="Cramorant" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 847<br>Cramorant</p>
+                    <div class="pokemon-types">
+                        <div class="type voador">Voador</div>
+                        <div class="type agua">Água</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon" style="padding-right: 80px;">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/848.png" alt="Arrokuda" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 848<br>Arrokuda</p>
+                    <div class="pokemon-types">
+                        <div class="type agua">Água</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="fileira">
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/849.png" alt="Barraskewda" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 849<br>Barraskewda</p>
+                    <div class="pokemon-types">
+                        <div class="type agua">Água</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon" style="padding-left: 50px;">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/850.png" alt="Toxel" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 850<br>Toxel</p>
+                    <div class="pokemon-types">
+                        <div class="type eletrico">Elétrico</div>
+                        <div class="type veneno">Veneno</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/851.png" alt="Toxtricity" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 851<br>Toxtricity</p>
+                    <div class="pokemon-types">
+                        <div class="type eletrico">Elétrico</div>
+                        <div class="type veneno">Veneno</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="fileira">
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/852.png" alt="Sizzlipede" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 852<br>Sizzlipede</p>
+                    <div class="pokemon-types">
+                        <div class="type fogo">Fogo</div>
+                        <div class="type inseto">Inseto</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon" style="padding-right: 10px;">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/853.png" alt="Centiskorch" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 853<br>Centiskorch</p>
+                    <div class="pokemon-types">
+                        <div class="type fogo">Fogo</div>
+                        <div class="type inseto">Inseto</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon" style="padding-right: 70px;">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/854.png" alt="Clobbopus" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 854<br>Clobbopus</p>
+                    <div class="pokemon-types">
+                        <div class="type luta">Lutador</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="fileira">
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/855.png" alt="Grapploct" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 855<br>Grapploct</p>
+                    <div class="pokemon-types">
+                        <div class="type luta">Lutador</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon" style="padding-right: 10px;">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/856.png" alt="Sinistea" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 856<br>Sinistea</p>
+                    <div class="pokemon-types">
+                        <div class="type fantasma">Ghost</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon" style="padding-right: 70px;">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/857.png" alt="Polteageist" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 857<br>Polteageist</p>
+                    <div class="pokemon-types">
+                        <div class="type fantasma">Ghost</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="fileira">
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/858.png" alt="Hatenna" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 858<br>Hatenna</p>
+                    <div class="pokemon-types">
+                        <div class="type psiquico">Psíquico</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon" style="padding-right: 10px;">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/859.png" alt="Hattrem" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 859<br>Hattrem</p>
+                    <div class="pokemon-types">
+                        <div class="type psiquico">Psíquico</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/860.png" alt="Hatterene" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 860<br>Hatterene</p>
+                    <div class="pokemon-types">
+                        <div class="type psiquico">Psíquico</div>
+                        <div class="type fada">Fada</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="fileira">
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/861.png" alt="Impidimp" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 861<br>Impidimp</p>
+                    <div class="pokemon-types">
+                        <div class="type fada">Fada</div>
+                        <div class="type noturno">Noturno</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon" style="padding-right: 10px;">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/862.png" alt="Morgrem" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 862<br>Morgrem</p>
+                    <div class="pokemon-types">
+                        <div class="type fada">Fada</div>
+                        <div class="type noturno">Noturno</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/863.png" alt="Grimmsnarl" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 863<br>Grimmsnarl</p>
+                    <div class="pokemon-types">
+                        <div class="type fada">Fada</div>
+                        <div class="type noturno">Noturno</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="fileira">
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/864.png" alt="Obstagoon" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 864<br>Obstagoon</p>
+                    <div class="pokemon-types">
+                        <div class="type noturno">Noturno</div>
+                        <div class="type normal">Normal</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon" style="padding-right: 85px;">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/865.png" alt="Perrserker" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 865<br>Perrserker</p>
+                    <div class="pokemon-types">
+                        <div class="type metal">Metálico</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon" style="padding-right: 80px;">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/866.png" alt="Cursola" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 866<br>Cursola</p>
+                    <div class="pokemon-types">
+                        <div class="type fantasma">Ghost</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="fileira">
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/867.png" alt="Surskit" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 867<br>Surskit</p>
+                    <div class="pokemon-types">
+                        <div class="type inseto">Inseto</div>
+                        <div class="type agua">Água</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon" style="padding-right: 5px;">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/868.png" alt="MasqueRain" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 868<br>MasqueRain</p>
+                    <div class="pokemon-types">
+                        <div class="type inseto">Inseto</div>
+                        <div class="type agua">Água</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon" style="padding-right: 75px;">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/869.png" alt="Pincurchin" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 869<br>Pincurchin</p>
+                    <div class="pokemon-types">
+                        <div class="type eletrico">Elétrico</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fileira">
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/870.png" alt="Snom" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 870<br>Snom</p>
+                    <div class="pokemon-types">
+                        <div class="type gelo">Gelo</div>
+                        <div class="type inseto">Inseto</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/871.png" alt="Frosmoth" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 871<br>Frosmoth</p>
+                    <div class="pokemon-types">
+                        <div class="type gelo">Gelo</div>
+                        <div class="type inseto">Inseto</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon" style="padding-right: 70px;">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/872.png" alt="Stonjourner" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 872<br>Stonjourner</p>
+                    <div class="pokemon-types">
+                        <div class="type pedra">Pedra</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="fileira">
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/873.png" alt="Eiscue" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 873<br>Eiscue</p>
+                    <div class="pokemon-types">
+                        <div class="type gelo">Gelo</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon" style="padding-left: 80px;">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/874.png" alt="Indeedee" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 874<br>Indeedee</p>
+                    <div class="pokemon-types">
+                        <div class="type psiquico">Psíquico</div>
+                        <div class="type normal">Normal</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/875.png" alt="Morpeko" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 875<br>Morpeko</p>
+                    <div class="pokemon-types">
+                        <div class="type eletrico">Elétrico</div>
+                        <div class="type noturno">Noturno</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="fileira">
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/876.png" alt="Cufant" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 876<br>Cufant</p>
+                    <div class="pokemon-types">
+                        <div class="type metal">Metálico</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon" style="padding-left: 10px;">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/877.png" alt="Copperajah" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 877<br>Copperajah</p>
+                    <div class="pokemon-types">
+                        <div class="type metal">Metálico</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/878.png" alt="Dracovish" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 878<br>Dracovish</p>
+                    <div class="pokemon-types">
+                        <div class="type dragao">Dragão</div>
+                        <div class="type agua">Água</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="fileira">
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/879.png" alt="Dracozolt" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 879<br>Dracozolt</p>
+                    <div class="pokemon-types">
+                        <div class="type dragao">Dragão</div>
+                        <div class="type eletrico">Elétrico</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/880.png" alt="Arctovish" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 880<br>Arctovish</p>
+                    <div class="pokemon-types">
+                        <div class="type gelo">Gelo</div>
+                        <div class="type agua">Água</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/881.png" alt="Arctozolt" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 881<br>Arctozolt</p>
+                    <div class="pokemon-types">
+                        <div class="type gelo">Gelo</div>
+                        <div class="type eletrico">Elétrico</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="fileira">
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/882.png" alt="Duraludon" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 882<br>Duraludon</p>
+                    <div class="pokemon-types">
+                        <div class="type dragao">Dragão</div>
+                        <div class="type metal">Metálico</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/883.png" alt="Dreepy" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 883<br>Dreepy</p>
+                    <div class="pokemon-types">
+                        <div class="type dragao">Dragão</div>
+                        <div class="type fantasma">Ghost</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/884.png" alt="Drakloak" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 884<br>Drakloak</p>
+                    <div class="pokemon-types">
+                        <div class="type dragao">Dragão</div>
+                        <div class="type fantasma">Ghost</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="fileira">
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/885.png" alt="Dragapult" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 885<br>Dragapult</p>
+                    <div class="pokemon-types">
+                        <div class="type dragao">Dragão</div>
+                        <div class="type fantasma">Ghost</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/886.png" alt="Zacian" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 886<br>Zacian</p>
+                    <div class="pokemon-types">
+                        <div class="type fada">Fada</div>
+                        <div class="type metal">Metálico</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/887.png" alt="Zamazenta" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 887<br>Zamazenta</p>
+                    <div class="pokemon-types">
+                        <div class="type luta">Lutador</div>
+                        <div class="type metal">Metálico</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="fileira">
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/888.png" alt="Eternatus" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 888<br>Eternatus</p>
+                    <div class="pokemon-types">
+                        <div class="type dragao">Dragão</div>
+                        <div class="type veneno">Veneno</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon" style="padding-right: 75px;">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/889.png" alt="Cufant" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 889<br>Cufant</p>
+                    <div class="pokemon-types">
+                        <div class="type metal">Metálico</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon" style="padding-right: 70px;">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/890.png" alt="Copperajah" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 890<br>Copperajah</p>
+                    <div class="pokemon-types">
+                        <div class="type metal">Metálico</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="fileira">
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/891.png" alt="Cufant" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 891<br>Cufant</p>
+                    <div class="pokemon-types">
+                        <div class="type metal">Metálico</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon" style="padding-left: 15px;">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/892.png" alt="Copperajah" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 892<br>Copperajah</p>
+                    <div class="pokemon-types">
+                        <div class="type metal">Metálico</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/893.png" alt="Frosmoth" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 893<br>Frosmoth</p>
+                    <div class="pokemon-types">
+                        <div class="type gelo">Gelo</div>
+                        <div class="type inseto">Inseto</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fileira">
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/894.png" alt="Snom" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 894<br>Snom</p>
+                    <div class="pokemon-types">
+                        <div class="type gelo">Gelo</div>
+                        <div class="type inseto">Inseto</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/895.png" alt="Frosmoth" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 895<br>Frosmoth</p>
+                    <div class="pokemon-types">
+                        <div class="type gelo">Gelo</div>
+                        <div class="type inseto">Inseto</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon" style="padding-right: 65px;">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/896.png" alt="Stonjourner" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 896<br>Stonjourner</p>
+                    <div class="pokemon-types">
+                        <div class="type pedra">Pedra</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="fileira">
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/897.png" alt="Eiscue" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 897<br>Eiscue</p>
+                    <div class="pokemon-types">
+                        <div class="type gelo">Gelo</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon" style="padding-left: 80px;">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/898.png" alt="Indeedee" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 898<br>Indeedee</p>
+                    <div class="pokemon-types">
+                        <div class="type psiquico">Psíquico</div>
+                        <div class="type normal">Normal</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/899.png" alt="Morpeko" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 899<br>Morpeko</p>
+                    <div class="pokemon-types">
+                        <div class="type eletrico">Elétrico</div>
+                        <div class="type noturno">Noturno</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="fileira">
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/900.png" alt="Cufant" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 900<br>Cufant</p>
+                    <div class="pokemon-types">
+                        <div class="type metal">Metálico</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon" style="padding-left: 10px;">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/901.png" alt="Copperajah" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 901<br>Copperajah</p>
+                    <div class="pokemon-types">
+                        <div class="type metal">Metálico</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/902.png" alt="Dracovish" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 902<br>Dracovish</p>
+                    <div class="pokemon-types">
+                        <div class="type dragao">Dragão</div>
+                        <div class="type agua">Água</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="fileira">
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/903.png" alt="Dracozolt" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 903<br>Dracozolt</p>
+                    <div class="pokemon-types">
+                        <div class="type dragao">Dragão</div>
+                        <div class="type eletrico">Elétrico</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/904.png" alt="Arctovish" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 904<br>Arctovish</p>
+                    <div class="pokemon-types">
+                        <div class="type gelo">Gelo</div>
+                        <div class="type agua">Água</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/905.png" alt="Arctozolt" class="pokemon-img">
+                <div class="pokemon-info">
+                    <p>N° 905<br>Arctozolt</p>
+                    <div class="pokemon-types">
+                        <div class="type gelo">Gelo</div>
+                        <div class="type eletrico">Elétrico</div>
+                    </div>
+                </div>
+            </div>
+        </div>                
+        <div class="fileira">
+            <div class="pokemon">
+                <a href="kalos.html"><img src="img/geracao2.png" alt="6ª Geração (Kalos)" class="pokemon-img" width="230px" height="230px"></a>
+                <div class="pokemon-info">
+                    <p><br>6ª Geração (Kalos)</p>
+                    <div class="pokemon-types">
+                    </div>
+                </div>
+            </div>
+            <div class="pokemon">
+                <a href="alola.html"><img src="img/geracao2.png" alt="7ª Geração (Alola)" class="pokemon-img" width="230px" height="230px"></a>
+                <div class="pokemon-info">
+                    <p><br>7ª Geração (Alola)</p>
+                    <div class="pokemon-types">
+                    </div>
+                </div>
+            </div>
+            <div class="pokemon">
+                <a href="paldea.html"><img src="img/geracao2.png" alt="9ª Geração (Unova)" class="pokemon-img" width="230px" height="230px"></a>
+                <div class="pokemon-info">
+                    <p><br>9ª Geração (Padea)</p>
+                    <div class="pokemon-types">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ad">
+        <p>Feito por <strong><a href="https://github.com/GabrielHolandaCosta" style="text-decoration: none; color: white;" target="_blank">Gabriel Holanda Costa</a></strong>. Tentando de alguma forma auxiliar para o bem da sociedade.</p>
+    </div>
+</body>
+</html>

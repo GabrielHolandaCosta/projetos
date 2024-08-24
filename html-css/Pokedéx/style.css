@@ -1,0 +1,189 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; 
+    padding: 0; 
+    background-color: #2F3337;
+}
+
+.menu {
+    width: 100%; 
+    background-color: #363636;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.menu h1 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.menu p {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.menu p a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 5px;
+    display: inline-block;
+    background-color: #505050;
+}
+
+.menu p a:hover {
+    background-color: #707070;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.kanto {
+    background-color: #40474F;
+    width: 1200px;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    height: 100%;
+}
+
+.kanto h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.fileira{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.pokemon {
+    display: flex;
+    align-items: center;
+}
+
+.pokemon-img {
+    background-color: #f2f2f211;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.pokemon-info {
+    text-align: left;
+}
+
+.pokemon-types {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.type {
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    width: 60px;
+    text-align: center;
+}
+
+.planta {
+    background-color: #9BCC50;
+}
+
+.poison {
+    background-color: #B97FC9;
+}
+
+.veneno {
+    background-color: #B97FC9;
+}
+
+.fogo {
+    background-color: #F08030;
+}
+
+.voador {
+    background-color: #A98FF3;
+}
+
+.agua {
+    background-color: #4592C4;
+}
+
+.inseto {
+    background-color: #729F3F;
+}
+
+.normal {
+    background-color: #A4ACAF;
+}
+
+.eletrico{
+    background-color: #EED535;
+}
+
+.terra{
+    background-color: #AB9842;
+}
+
+.fada {
+    background-color: #FDB9E9;
+}
+
+.luta {
+    background-color: #D56723;
+}
+
+.gelo {
+    background-color: #51C4E7;
+}
+
+.psiquico{
+    background-color: #F366B9;
+}
+
+.pedra {
+    background-color: #A38C21;
+}
+
+.metal {
+    background-color: #9EB7B8;
+}
+
+.rocha {
+    background-color: #A38C21;
+}
+
+.fantasma {
+    background-color: #7B62A3;
+}
+
+.dragao {
+    background-color: #53A4CF;
+}
+
+.noturno {
+    background-color: #707070;
+}
+
+.geracao2 {
+    background-color: #2222FF;
+}
+
+.ad {
+    text-align: center;
+    background-color: #363636;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
